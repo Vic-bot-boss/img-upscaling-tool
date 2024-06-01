@@ -51,12 +51,12 @@ python pillow_resizing.py
 ### Before and After
 
 #### Example 1:
-**Before:** ![low-res-72dpi](images/low-res-72dpi.jpg)
-**After (Real-ESRGAN):** ![image](images/image.jpg)
+**Before:** ![low-res-72dpi](low-res-72dpi.jpg)
+**After (Real-ESRGAN):** ![image](image.jpg)
 
 #### Example 2:
-**Before:** ![shrek](images/shrek.png)
-**After (Real-ESRGAN):** ![shrek_up](images/shrek_up.png)
+**Before:** ![shrek](shrek.png)
+**After (Real-ESRGAN):** ![shrek_up](shrek_up.png)
 
 ## Setup
 
