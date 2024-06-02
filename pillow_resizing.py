@@ -1,3 +1,4 @@
+import sys
 from PIL import Image
 
 def upscale_image(input_path, output_path, scale_factor):
@@ -22,9 +23,12 @@ def upscale_image(input_path, output_path, scale_factor):
         print(f"Image saved to {output_path}")
 
 if __name__ == "__main__":
-    # Example usage
-    input_image_path = "low-res-72dpi.jpg"
-    output_image_path = "image.jpg"
-    scale_factor = 2  # For example, to upscale by 2 times
+    if len(sys.argv) != 4:
+        print("Usage: python pillow_resizing.py <input_path> <output_path> <scale_factor>")
+        sys.exit(1)
+
+    input_image_path = sys.argv[1]
+    output_image_path = sys.argv[2]
+    scale_factor = float(sys.argv[3])
 
     upscale_image(input_image_path, output_image_path, scale_factor)
