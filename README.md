@@ -1,3 +1,4 @@
+I often find myself using online tools for resizing and upscaling with feature hidden behind paywalls. So here's mine...
 
 # Image Upscaling Tool
 
@@ -50,12 +51,16 @@ python pillow_resizing.py
 ### Before and After
 
 #### Example 1:
-**Before:** ![low-res-72dpi](images/low-res-72dpi.jpg)
-**After (Real-ESRGAN):** ![image](images/image.jpg)
+**Before:** 
+![low-res-72dpi](low-res-72dpi.jpg)
+**After (Real-ESRGAN):** 
+![image](low-res-72dpi_up.jpg)
 
 #### Example 2:
-**Before:** ![shrek](images/shrek.png)
-**After (Real-ESRGAN):** ![shrek_up](images/shrek_up.png)
+**Before:** 
+![shrek](shrek.png)
+**After (Real-ESRGAN):** 
+![shrek_up](shrek_up.png)
 
 ## Setup
 
