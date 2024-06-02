@@ -8,7 +8,7 @@ This repository contains tools for upscaling images using Real-ESRGAN and Pillow
 
 ### 1. Real-ESRGAN Upscaling
 
-#### Script: `real_upscaling_NN.py`
+#### Script: `real_ESRGAN_upscaling.py`
 
 Upscales images using the Real-ESRGAN model.
 
